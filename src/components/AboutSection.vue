@@ -28,27 +28,24 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
                     Me
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe
-                      eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus 
-                      illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore 
-                      quaerat quis nobis id similique!
+                <p class="text-base lg:text-lg mt-8 py-8">Hi, I'm Biruk Merawi, a dedicated full-stack web developer with a passion for 
+                    creating seamless digital experiences. I work with modern frontend frameworks like Vue.js, React, and Next.js, while 
+                    also building powerful backend systems using Node.js, Express.js, Nest.js, and Go (Golang). My interest extends beyond web 
+                    development into the world of machine learning, where I apply data analysis techniques and model development. 
+                    I’ve also explored Flutter to craft responsive mobile applications. I thrive on solving complex problems, optimizing 
+                    performance, and continuously expanding my skill set to build innovative, user-friendly solutions
                 </p>
-                <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
-                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
-                        <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
-                    </div>
-                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+300</h3>
-                        <p class="text-sm sm:text-base text-gray-300">Project</p>
-                    </div>
+                <div class="flex justify-between max-w-lg pt-8">
+    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3 w-1/2 mx-2">
+        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+30</h3>
+        <p class="text-sm sm:text-base text-gray-300">Projects</p>
+    </div>
 
-                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+7</h3>
-                        <p class="text-sm sm:text-base text-gray-300"> Years Experience</p>
-                    </div>
-                </div>
+    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3 w-1/2 mx-2">
+        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+3</h3>
+        <p class="text-sm sm:text-base text-gray-300">Years Experience</p>
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -58,15 +55,15 @@ import { ref } from 'vue';
 const education=ref([
     {
         id:1,
-        School:'school 1',
-        program:'Software Engineer',
-        year:'2022'
+        School:'Addis Ababa University',
+        program:'Computer Engineer',
+        year:'2025'
     },
     {
         id:2,
-        School:'school 2',
+        School:'Self Taught',
         program:'Software Engineer',
-        year:'2020'
+        year:'2021'
     }
 ])
 </script>

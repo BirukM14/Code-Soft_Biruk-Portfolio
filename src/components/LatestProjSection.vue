@@ -64,17 +64,17 @@ const Projects = ref([
         id: 1,
         category: 'web development',
         image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        title: 'Real Time Chat Bot',
+        description: 'This project is all about letting people to chat in real time so you can transmmit your message text or image can be attached. inorder to access you have to sing up or login to your accout and you can also upload and update your profile picture.',
+        technologies: ['React', 'Mongodb', 'Express','Node.js','Cloudinary'],
         gitURL: '',
         webURL: ''
     },
     {
         id: 2,
-        category: 'Mobile App',
+        category: 'Web dev',
         image: 'src/assets/mobile.jpg',
-        title: 'project 1',
+        title: 'Auth with email',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
         technologies: ['vue.js 3', 'vuex', 'Express'],
         gitURL: '',
@@ -92,31 +92,11 @@ const Projects = ref([
     },
     {
         id: 4,
-        category: 'Mobile App',
+        category: 'Machine Learning',
         image: 'src/assets/mobile.jpg',
-        title: 'project 1',
+        title: 'Sentimental Analysis',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    },
-    {
-        id: 5,
-        category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    },
-    {
-        id: 6,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        technologies: ['NLP', 'NLIk', 'Logical Regression'],
         gitURL: '',
         webURL: ''
     }

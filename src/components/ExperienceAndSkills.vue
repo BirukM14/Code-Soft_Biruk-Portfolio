@@ -51,12 +51,12 @@ const Skills =ref([
     {
         id:1,
         name:'HTmL & CSS',
-        width:'85%'
+        width:'95%'
     },
     {
         id:2,
         name:'Python',
-        width:'70%'
+        width:'95%'
     },
     {
         id:3,
@@ -68,20 +68,26 @@ const Skills =ref([
         name:'figma',
         width:'91%'
     },
+    {
+        id:5,
+        name:"golang",
+        width:"85%"
+    },
+   
 ]);
 
 const Experinces =ref([
     {
         id:1,
         role:'Software Engineer',
-        company:'Microsoft',
-        date:'Mar 2023 - September 2024'
+        company:'Abyssinia Software Solutions',
+        date:'Aug 2024 - Jan 2025'
     },
     {
         id:2,
-        role:'Frontend Developer',
-        company:'Spotify',
-        date:'Mar 2022 - September 2023'
+        role:'MERN Stack Developer',
+        company:'Minnovation',
+        date:'Apr 2022 - Sep 2023'
     },
 ])
 </script>
