@@ -93,10 +93,10 @@ const Projects = ref([
     {
         id: 4,
         category: 'Machine Learning',
-        image: 'src/assets/mobile.jpg',
+        image: 'src/assets/sentimental.jpeg',
         title: 'Sentimental Analysis',
         description: 'Project Overview: This Sentiment Analysis project uses machine learning techniques to analyze the sentiment (positive, negative, or neutral) of text data. It typically involves training a model on labeled data (e.g., product reviews, social media posts) to predict the sentiment of unseen text input.',
-        technologies: ['NLP', 'NLIk', 'Logical Regression'],
+        technologies: ['NLP', 'NLTk', 'Logical Regression'],
         gitURL: 'https://github.com/BirukM14/sentimental-analysis',
         webURL: ''
     }
