@@ -1,22 +1,15 @@
-// models/User.js
+// models/contact.js (Optional)
 const mongoose = require('mongoose');
 
-// Define the schema
-const userSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  email: {
-    type: String,
-    required: true,
-    unique: true
-  },
-  password: {
-    type: String,
-    required: true
-  }
-}, { timestamps: true });
+// Define a schema for the contact messages
+const contactSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true },
+  subject: { type: String, required: true },
+  message: { type: String, required: true },
+  date: { type: Date, default: Date.now },
+});
 
-// Create and export the model
-module.exports = mongoose.model('User', userSchema);
+const Contact = mongoose.model('Contact', contactSchema);
+
+module.exports = Contact;
