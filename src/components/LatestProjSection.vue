@@ -63,7 +63,7 @@ const Projects = ref([
     {
         id: 1,
         category: 'web development',
-        image: 'src/assets/project.png',
+        image: 'src/assets/real.png',
         title: 'Real Time Chat Bot',
         description: 'This project is all about letting people to chat in real time so you can transmmit your message text or image can be attached. inorder to access you have to sing up or login to your accout and you can also upload and update your profile picture.',
         technologies: ['React', 'Mongodb', 'Express','Node.js','Cloudinary'],
