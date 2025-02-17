@@ -3,8 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const userRoutes = require('./routes/userRoutes'); // Import the user routes
 const config = require('./config/config'); // Import config file
+const route= require('./routes/route')
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api/users', userRoutes); // Add the user routes
+app.use('/api/contact', route); // Add the user routes
 
 // Connect to MongoDB using the connection string from config
 mongoose.connect(config.dbUri, {
