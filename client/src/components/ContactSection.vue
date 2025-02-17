@@ -45,7 +45,7 @@ export default {
   methods: {
     async sendMessage() {
       try {
-        const response = await axios.post('http://localhost:5000/api/contact/send-message', {
+        const response = await axios.post('http://localhost:5000/api/contact', {
           name: this.name,
           email: this.email,
           subject: this.subject,

@@ -1,8 +1,7 @@
-// controllers/contactController.js
-const transporter = require('../config/config');
+const transporter = require('../config/config');  // CommonJS require
 
 // Controller to handle contact form submission
-exports.sendMessage = (req, res) => {
+const controller = (req, res) => {
   const { name, email, subject, message } = req.body;
 
   // Send the email notification using Nodemailer
@@ -17,9 +16,11 @@ exports.sendMessage = (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log('Error occurred:', error);
-      return res.status(500).send('Failed to send email');
+      return res.status(500).send({ message: 'Failed to send email', error: error.message });
     }
     console.log('Email sent:', info.response);
-    res.status(200).send('Message received and email sent');
+    res.status(200).send({ message: 'Message received and email sent' });
   });
 };
+
+module.exports = controller;  // Export using CommonJS
