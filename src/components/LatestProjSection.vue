@@ -67,27 +67,27 @@ const Projects = ref([
         title: 'Real Time Chat Bot',
         description: 'This project is all about letting people to chat in real time so you can transmmit your message text or image can be attached. inorder to access you have to sing up or login to your accout and you can also upload and update your profile picture.',
         technologies: ['React', 'Mongodb', 'Express','Node.js','Cloudinary'],
-        gitURL: '',
+        gitURL: 'https://github.com/BirukM14/Buragram',
         webURL: ''
     },
     {
         id: 2,
         category: 'Web dev',
-        image: 'src/assets/mobile.jpg',
+        image: 'src/assets/auth.png',
         title: 'Auth with email',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
+        description: 'Project Overview: This project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React, Node.js) that implements user authentication via email and password. Users can register, log in, and manage their authentication state securely.',
+        technologies: ['React', 'Mongodb', 'Express','node.js'],
+        gitURL: 'https://github.com/BirukM14/AuthUsingEmailBackend',
         webURL: ''
     },
     {
         id: 3,
         category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
+        image: 'src/assets/food.png',
+        title: 'Food ordering',
+        description: 'Project Overview: This is a full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to browse menus, place orders, and track their food delivery. The application can handle both customer and admin functionalities, providing a seamless food ordering experience.',
+        technologies: ['react', 'node.js', 'Express','mongodb'],
+        gitURL: 'https://github.com/BirukM14/foodorderingwithbackend',
         webURL: ''
     },
     {
@@ -95,9 +95,9 @@ const Projects = ref([
         category: 'Machine Learning',
         image: 'src/assets/mobile.jpg',
         title: 'Sentimental Analysis',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
+        description: 'Project Overview: This Sentiment Analysis project uses machine learning techniques to analyze the sentiment (positive, negative, or neutral) of text data. It typically involves training a model on labeled data (e.g., product reviews, social media posts) to predict the sentiment of unseen text input.',
         technologies: ['NLP', 'NLIk', 'Logical Regression'],
-        gitURL: '',
+        gitURL: 'https://github.com/BirukM14/sentimental-analysis',
         webURL: ''
     }
 ]);
