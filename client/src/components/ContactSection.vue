@@ -1,5 +1,6 @@
 <template>
-  <div class="flex justify-center items-center min-h-screen bg-[#111827]">
+  <!-- Contact Section -->
+  <section id="contact" class="flex justify-center items-center min-h-screen bg-[#111827]">
     <!-- Form Section -->
     <form @submit.prevent="sendMessage" class="flex flex-col p-6 bg-gray-800 rounded-lg shadow-lg w-full max-w-md" data-aos="zoom-in-up">
       <div class="mb-6">
@@ -26,7 +27,7 @@
         Send Message
       </button>
     </form>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -64,4 +65,3 @@ export default {
   },
 };
 </script>
-
