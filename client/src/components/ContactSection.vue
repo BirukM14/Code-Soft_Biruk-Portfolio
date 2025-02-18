@@ -32,7 +32,6 @@
 
 <script>
 import axios from 'axios'; // Import axios to handle HTTP requests
-console.log("nengoisa")
 
 export default {
   data() {
