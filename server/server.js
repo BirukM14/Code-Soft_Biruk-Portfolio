@@ -18,7 +18,7 @@ app.use('/api/contact', route);
 // Add the user routes
 
 // Start the server
-const PORT = process.env.PORT || 5173; // Use port 5173
+const PORT = process.env.PORT || 5000; // Use port 5173
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });

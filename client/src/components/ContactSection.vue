@@ -32,6 +32,7 @@
 
 <script>
 import axios from 'axios'; // Import axios to handle HTTP requests
+console.log("nengoisa")
 
 export default {
   data() {
@@ -45,7 +46,7 @@ export default {
   methods: {
     async sendMessage() {
       try {
-        const response = await axios.post('http://localhost:5000/api/contact', {
+        const response = await axios.post('http://localhost:5000/api/contact/send-message', {
           name: this.name,
           email: this.email,
           subject: this.subject,
